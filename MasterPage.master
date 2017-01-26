@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>My resume website</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+        <asp:ContentPlaceHolder id="MainContent1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+
+ 
+    </body>
+</html>
